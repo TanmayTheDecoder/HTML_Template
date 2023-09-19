@@ -1,0 +1,1922 @@
+:root {
+    --primary: rgb(0, 47, 0);
+    --secondary: rgb(0, 67, 0);
+    --ternery: rgb(0, 87, 0);
+    --smokey: whitesmoke;
+    --wheat: rgb(255, 255, 242);
+    --sharp_fonts: 'Crimson Pro', serif;
+}
+
+/* ========for mobiles============ */
+@media (300px <=width <=599px) {
+
+    .scale_animate:hover.scale_animate img {
+        transform: unset;
+    }
+
+    /* 
+======================================
+    header starts
+======================================
+*/
+    .header_container {
+        text-align: center;
+        line-height: 1.3;
+        height: 10vh;
+        max-width: 100%;
+    }
+
+    .header_container h4 {
+        padding: 1.5rem;
+    }
+
+    /* 
+======================================
+    header ends
+======================================
+*/
+    /* 
+================================
+navbar starts
+================================
+*/
+    .nav_icons {
+        display: none;
+    }
+
+    .menu_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        width: max-content;
+    }
+
+    .nav_logo {
+        justify-content: flex-start;
+        display: flex;
+        width: auto;
+    }
+
+    .nav_logo img {
+        transform: unset;
+        height: 27vh;
+        width: auto;
+    }
+
+    .shipping {
+        display: none;
+    }
+
+
+    /* 
+================================
+    navbar ends
+================================
+*/
+
+
+    /* 
+================================
+    navlinks starts 
+================================
+*/
+
+    .nav_links_container {
+        display: none;
+    }
+
+    /* 
+================================
+    navlinks ends 
+================================
+*/
+
+    /* 
+================================
+    hero starts 
+================================
+*/
+
+    .hero_inner img {
+        content: url('../assets/images/10045.jpg');
+    }
+
+    /* 
+================================
+    hero ends 
+================================
+*/
+
+    /* 
+================================
+    concious luxury starts 
+================================
+*/
+
+    /* concious_inner__title */
+
+    .concious_inner__title {
+        padding: 2.3rem 0rem;
+    }
+
+    .concious_inner__title__inner {
+        height: 90%;
+        width: 100%;
+    }
+
+    .concious_inner__title__inner h1 {
+        font-size: 1.4rem;
+    }
+
+    .concious_inner__title__inner p {
+        padding: 1.1em;
+        font-size: 1rem;
+    }
+
+    /* swaying silhouttes */
+    .concious_inner__content {
+        align-items: flex-start;
+    }
+
+    .concious_inner__content__inner {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .luxury_img_I {
+        width: auto;
+        height: 210%;
+    }
+
+    .luxury_img_I img {
+        width: 100%;
+    }
+
+    .luxury_img_II {
+        display: none;
+    }
+
+    .swaying_silhouttes {
+        align-items: center;
+        width: 100%;
+    }
+
+    .swaying_silhouttes h1 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    /* 
+================================
+    concious luxury ends 
+================================
+*/
+
+    /* 
+================================
+    category starts 
+================================
+*/
+    .category_inner_title {
+        height: 12%;
+        padding-bottom: 4rem;
+    }
+
+    .category_inner_title__inner h1 {
+        font-size: 1.7rem;
+    }
+
+    .category_inner__content__inner {
+        height: 108%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .kurta_sets,
+    .sarees,
+    .croods {
+        display: none;
+    }
+
+    .dresses {
+        width: 90%;
+        height: 80%;
+        overflow: visible;
+    }
+
+    .dresses img {
+        transform: translateY(10%);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+
+    .dresses h3 {
+        display: none;
+    }
+
+    /* 
+=======================================
+    grassroot starts
+=======================================
+*/
+
+    .grassroot_inner__content {
+        align-items: flex-start;
+    }
+
+    .grassroot_inner__content__inner {
+        flex-direction: column;
+    }
+
+    .grassroot_img_I {
+        overflow: visible;
+        width: 90%;
+        height: 90%;
+        margin-bottom: 2rem;
+        margin-top: -15%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .grassroot_img_II {
+        display: none;
+    }
+
+    .grassroot_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .grassroot_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .grassroot_text p {
+        text-align: center;
+    }
+
+    /* 
+=======================================
+    grassroot ends
+=======================================
+*/
+
+    /* 
+========================================
+    bridal edit starts
+========================================
+*/
+    .bridal_edit_inner__content {
+        align-items: flex-start;
+    }
+
+    .bridal_edit_inner__content__inner {
+        flex-direction: column-reverse;
+    }
+
+    .bridal_edit_img_I {
+        width: 90%;
+        height: 170%;
+        margin-top: -15%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .bridal_edit_img_II {
+        display: none;
+    }
+
+    .bridal_edit_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .bridal_edit_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .bridal_edit_text p {
+        text-align: center;
+    }
+
+    /* 
+========================================
+    bridal edit ends
+========================================
+*/
+
+
+    /* 
+========================================
+    vegan accessories starts
+========================================
+*/
+
+    .vegan_accessories_inner__content {
+        align-items: flex-start;
+    }
+
+    .vegan_accessories_inner__content__inner {
+        flex-direction: column;
+    }
+
+    .vegan_accessories_img {
+        width: auto;
+        height: 100%;
+        margin-top: -15%;
+    }
+
+    .vegan_accessories_img img {
+        width: 100%;
+    }
+
+    .vegan_accessories_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .vegan_accessories_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .vegan_accessories_text p {
+        text-align: center;
+    }
+
+    /* 
+========================================
+    vegan accessories ends
+========================================
+*/
+
+    /* 
+========================================
+    indian crafts starts
+========================================
+*/
+
+    .indian_crafts_inner__content {
+        align-items: flex-start;
+    }
+
+    .indian_crafts_inner__content__inner {
+        flex-direction: column-reverse;
+    }
+
+    .indian_crafts_img {
+        width: auto;
+        height: 100%;
+        margin-top: -15%;
+    }
+
+    .indian_crafts_img img {
+        width: 100%;
+    }
+
+    .indian_crafts_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .indian_crafts_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .indian_crafts_text p {
+        text-align: center;
+    }
+
+    /* 
+========================================
+    indian crafts ends
+========================================
+*/
+
+    /* 
+========================================
+    men's wear starts
+========================================
+*/
+    .menswear_inner__content {
+        align-items: flex-start;
+    }
+
+    .menswear_inner__content__inner {
+        flex-direction: column;
+    }
+
+    .menswear_img_I {
+        width: 90%;
+        height: 170%;
+        margin-top: -15%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .menswear_img_II {
+        display: none;
+    }
+
+    .menswear_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .menswear_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .menswear_text p {
+        text-align: center;
+    }
+
+    /* 
+========================================
+    men's wear ends
+========================================
+*/
+    /* 
+========================================
+    perfect pair starts
+========================================
+*/
+    .perfect_pair_inner__content {
+        align-items: flex-start;
+    }
+
+    .perfect_pair_inner__content__inner {
+        flex-direction: column-reverse;
+    }
+
+    .perfect_pair_img_I {
+        width: 90%;
+        height: 170%;
+        margin-top: -15%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .perfect_pair_img_II {
+        display: none;
+    }
+
+    .perfect_pair_text {
+        align-items: center;
+        width: 100%;
+    }
+
+    .perfect_pair_text h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .perfect_pair_text p {
+        text-align: center;
+    }
+
+    /* 
+========================================
+    perfect pair ends
+========================================
+*/
+
+    /* 
+================================
+    category ends 
+================================
+*/
+
+    /* 
+================================
+    footer starts 
+================================
+*/
+
+    /* 
+================================
+    footer mail
+================================
+*/
+    .footer_container {
+        height: 238vh;
+    }
+
+    .footer_inner__mail {
+        height: 6%;
+    }
+
+    .footer_inner__mail__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        line-height: 2em;
+        width: 100%;
+    }
+
+    .footer_inner__mail__inner p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .footer_inner__mail__inner input {
+        width: 90%;
+    }
+
+    .footer_inner__mail__inner input::placeholder {
+        text-align: center;
+    }
+
+    label {
+        display: none;
+    }
+
+    /* 
+================================
+    footer social
+================================
+*/
+
+    .footer_inner__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_inner__social__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90%;
+    }
+
+    .footer_inner__social__inner p {
+        text-align: center;
+    }
+
+    .social_icons {
+        width: 50%;
+        height: 20%;
+    }
+
+    /* 
+================================
+    footer list
+================================
+*/
+    .footer_list {
+        height: 65%;
+    }
+
+    .footer_list_inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 95%;
+    }
+
+    .customer,
+    .aboutus,
+    .categories,
+    .legal,
+    .help {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* 
+================================
+    agreement
+================================
+*/
+    .agreement {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 21vh;
+    }
+
+    /* 
+================================
+    footer ends 
+================================
+*/
+
+
+}
+
+/* ========for tablets============ */
+@media (600px <=width <=800px) {
+
+    .scale_animate:hover.scale_animate img {
+        transform: unset;
+    }
+
+    /* 
+    ===============================
+    header
+    ===============================
+    */
+
+    .header_container {
+        text-align: center;
+        line-height: 1.2;
+        height: 8vh;
+        max-width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .header_container h4 {
+        padding: 1rem;
+    }
+
+    /* 
+==============================
+    navbar 
+==============================
+ */
+    .shipping {
+        display: none;
+    }
+
+    .nav_icons {
+        display: none;
+    }
+
+    .menu_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        width: 16%;
+    }
+
+    .tablet_nav_icons {
+        display: block;
+        font-size: 1.3rem;
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: 500;
+    }
+
+    .nav_logo {
+        width: auto;
+    }
+
+    .nav_logo img {
+        transform: none;
+    }
+
+    /* 
+==============================
+    navlist
+==============================
+*/
+
+    .nav_links_container {
+        display: none;
+    }
+
+    /*  
+==============================
+    hero
+==============================
+*/
+
+    .hero_inner img {
+        content: url('../assets/images/10045.jpg');
+        width: 100%;
+        height: 141%;
+    }
+
+
+    /*
+==============================
+concious luxury starts
+==============================
+*/
+
+    /*
+==============================
+concious inner title
+==============================    
+*/
+
+    .concious_inner__title__inner {
+        width: 90%;
+        height: 100%;
+        padding: 1.5rem;
+    }
+
+    .concious_inner__title__inner h1 {
+        font-size: 1.4rem;
+    }
+
+    .concious_inner__title__inner p {
+        font-size: 0.9rem;
+    }
+
+    /* 
+===================================
+    concious inner content
+===================================
+*/
+
+    .concious_inner__content__inner {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .luxury_img_I {
+        transform: scale(1.7, 1.7);
+        margin: 3%;
+    }
+
+    .luxury_img_II {
+        display: none;
+    }
+
+    .swaying_silhouttes {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(30%);
+    }
+
+    .swaying_silhouttes h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /* 
+================================
+    concious luxury ends
+================================
+*/
+
+    /* 
+================================
+    category starts
+================================
+*/
+
+    .hide_content h1,
+    .hide_content button {
+        visibility: visible;
+    }
+
+    /* 
+================================
+    category inner content
+================================
+*/
+    .category_inner__content__inner {
+        width: 90%;
+    }
+
+    .kurta_sets,
+    .sarees {
+        display: none;
+    }
+
+    .dresses,
+    .croods {
+        height: 80%;
+        padding-top: 2em;
+        width: 49%;
+        overflow: hidden;
+    }
+
+    /* 
+================================
+    grassroot title
+================================
+*/
+    .grassroot_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .grassroot_inner__title__inner #btn_margin {
+        margin: unset;
+    }
+
+    .grassroot_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .grassroot_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    grassroot content
+================================
+*/
+    .grassroot {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .grassroot_inner__content {
+        align-items: center;
+    }
+
+    .grassroot_inner__content__inner {
+        display: flex;
+    }
+
+    .grassroot_text {
+        display: none;
+    }
+
+    .grassroot_img_I,
+    .grassroot_img_II {
+        width: 49%;
+        height: 85%;
+    }
+
+    /* 
+================================
+    bridal edit
+================================
+*/
+
+    /* 
+================================
+    bridaledit title
+================================
+*/
+    .bridal_edit_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .bridal_edit_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .bridal_edit_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    bridaledit content
+================================
+*/
+    .bridal_edit {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bridal_edit__content {
+        align-items: center;
+    }
+
+    .bridal_edit__content__inner {
+        display: flex;
+    }
+
+    .bridal_edit_text {
+        display: none;
+    }
+
+    .bridal_edit_img_I,
+    .bridal_edit_img_II {
+        width: 49%;
+        height: 85%;
+    }
+
+    /* 
+================================
+    vegan accsssories
+================================
+*/
+
+    /* 
+================================
+    vegan accessories title
+================================
+*/
+    .vegan_accessories_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .vegan_accessories_inner__title__inner #btn_margin {
+        margin: unset;
+    }
+
+    .vegan_accessories_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .vegan_accessories_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    vegan accessories content
+================================
+*/
+    .vegan_accessories {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vegan_accessories__content__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vegan_accessories_text {
+        display: none;
+    }
+
+    .vegan_accessories_img {
+        width: 100%;
+        height: 85%;
+    }
+
+    .vegan_accessories_img img {
+        width: 100%;
+    }
+
+    /* 
+================================
+    indian crafts
+================================
+*/
+
+    /* 
+================================
+    indian crafts title
+================================
+*/
+    .indian_crafts_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .indian_crafts_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .indian_crafts_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    indian crafts content
+================================
+*/
+    .indian_crafts {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .indian_crafts__content__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .indian_crafts_text {
+        display: none;
+    }
+
+    .indian_crafts_img {
+        width: 100%;
+        height: 85%;
+    }
+
+    .indian_crafts_img img {
+        width: 100%;
+    }
+
+    /* 
+================================
+    menswear
+================================
+*/
+
+    /* 
+================================
+    menswear title
+================================
+*/
+    .menswear_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .menswear_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .menswear_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    menswear content
+================================
+*/
+    .menswear {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menswear_inner__content {
+        align-items: center;
+    }
+
+    .menswear_inner__content__inner {
+        display: flex;
+    }
+
+    .menswear_text {
+        display: none;
+    }
+
+    .menswear_img_I,
+    .menswear_img_II {
+        width: 49%;
+        height: 85%;
+    }
+
+    /* 
+================================
+    perfect pair
+================================
+*/
+
+    /* 
+================================
+    perfect pair title
+================================
+*/
+
+    .perfect_pair_inner__title__inner {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .perfect_pair_inner__title__inner h1 {
+        font-size: 1.4rem;
+        align-items: flex-start;
+        font-family: 'Crimson Pro', serif;
+        text-transform: uppercase;
+    }
+
+    .perfect_pair_inner__title__inner button {
+        padding: 0.5em;
+        border: 1px solid var(--primary);
+    }
+
+    /* 
+================================
+    perfect pair content
+================================
+*/
+    .perfect_pair {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .perfect_pair_inner__content {
+        align-items: center;
+    }
+
+    .perfect_pair_inner__content__inner {
+        display: flex;
+    }
+
+    .perfect_pair_text {
+        display: none;
+    }
+
+    .perfect_pair_img_I,
+    .perfect_pair_img_II {
+        width: 49%;
+        height: 85%;
+    }
+
+    /* 
+================================
+    category ends
+================================
+*/
+    /* 
+================================
+    footer starts 
+================================
+*/
+
+    /* 
+================================
+    footer mail
+================================
+*/
+    .footer_container {
+        height: 238vh;
+    }
+
+    .footer_inner__mail {
+        height: 6%;
+    }
+
+    .footer_inner__mail__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        line-height: 2em;
+        width: 100%;
+    }
+
+    .footer_inner__mail__inner p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .footer_inner__mail__inner input {
+        width: 90%;
+    }
+
+    .footer_inner__mail__inner input::placeholder {
+        text-align: center;
+    }
+
+    label {
+        display: none;
+    }
+
+    /* 
+================================
+footer social
+================================
+*/
+
+    .footer_inner__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_inner__social__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90%;
+    }
+
+    .footer_inner__social__inner p {
+        text-align: center;
+    }
+
+    .social_icons {
+        width: 50%;
+        height: 20%;
+    }
+
+    /* 
+================================
+footer list
+================================
+*/
+    .footer_list {
+        height: 65%;
+    }
+
+    .footer_list_inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 95%;
+    }
+
+    .customer,
+    .aboutus,
+    .categories,
+    .legal,
+    .help {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* 
+================================
+agreement
+================================
+*/
+    .agreement {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 21vh;
+    }
+
+    /* 
+================================
+footer ends 
+================================
+*/
+
+
+}
+
+/* ========for laptops============ */
+@media (801px <=width <=1024px) {
+
+    /*
+==============================
+    header starts
+==============================
+ */
+    .header_container {
+        text-align: center;
+        height: 6vh;
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .header_container h4 {
+        padding: 0.8rem;
+    }
+
+    /*
+==============================
+    header ends
+==============================
+ */
+
+    /* 
+==============================
+    navbar starts
+==============================
+*/
+    .shipping {
+        width: 20%;
+    }
+
+    .nav_icons {
+        width: 28%;
+    }
+
+    .nav_logo {
+        width: auto;
+    }
+
+    .nav_logo img {
+        transform: translateX(10%);
+    }
+
+
+    /* 
+==============================
+    navbar ends
+==============================
+*/
+
+    /* 
+==============================
+    navlist starts
+==============================
+ */
+    .nav_links_inner {
+        width: 90%;
+    }
+
+    /* 
+=============================
+    navlist ends
+=============================
+*/
+
+    /* 
+=============================
+    concious luxury starts
+=============================
+*/
+
+    /* 
+=============================
+    concious inner title
+=============================
+*/
+
+    .concious_inner__title__inner {
+        height: 80%;
+    }
+
+    .concious_inner__title__inner h1 {
+        font-size: 1.7rem;
+    }
+
+    /* 
+=============================
+    concious content
+=============================
+*/
+    .concious_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .luxury_img_I {
+        width: 50%;
+    }
+
+    .luxury_img_II {
+        display: none;
+    }
+
+    .swaying_silhouttes {
+        width: 40%;
+    }
+
+    .swaying_silhouttes button {
+        margin-left: 0.7em !important;
+    }
+
+    /* 
+=============================
+    concious luxury ends
+=============================
+*/
+
+    /* 
+=============================
+    category starts
+=============================
+*/
+
+    /* 
+=============================
+    category content
+=============================
+*/
+    .category_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .dresses,
+    .croods {
+        display: none;
+    }
+
+    .kurta_sets,
+    .sarees {
+        width: 45%;
+    }
+
+    /* 
+=============================
+    grassroot starts
+=============================
+*/
+
+    /* 
+=============================
+    grassroot content
+=============================
+*/
+
+    .grassroot_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .grassroot_img_I {
+        display: none;
+    }
+
+    .grassroot_img_II {
+        width: 50%;
+    }
+
+    .grassroot_text {
+        width: 40%;
+    }
+
+    .grassroot_text button {
+        width: 50%;
+        margin: 1em 0.5em !important;
+    }
+
+    /* 
+=============================
+    bridal edit
+=============================
+*/
+    .bridal_edit__inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .bridal_edit_img_I {
+        display: none;
+    }
+
+    .bridal_edit_img_II {
+        width: 50%;
+    }
+
+    .bridal_edit_text {
+        width: 45%;
+    }
+
+    .bridal_edit_text button {
+        margin-left: 0.5em !important;
+    }
+
+    /* 
+=============================
+    vegan accessories
+=============================
+*/
+
+    .vegan_accessories_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .vegan_accessories_img {
+        height: 84%;
+        width: 80%;
+    }
+
+    .vegan_accessories_img img {
+        width: 98%;
+    }
+
+    .vegan_accessories_text {
+        justify-content: center;
+    }
+
+    .vegan_accessories_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .vegan_accessories_text button {
+        margin-left: 0.5em !important;
+    }
+
+    /* 
+=============================
+    indian crafts
+=============================
+*/
+
+    .indian_crafts_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .indian_crafts_img {
+        height: 84%;
+        width: 80%;
+    }
+
+    .indian_crafts_img img {
+        width: 100%;
+    }
+
+    .indian_crafts_text {
+        justify-content: center;
+    }
+
+    .indian_crafts_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .indian_crafts_text button {
+        margin-left: 0.5em !important;
+        width: auto;
+        padding: 0em 1em;
+    }
+
+    /* 
+=============================
+    menswear
+=============================
+*/
+
+    .menswear__inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .menswear_img_I {
+        display: none;
+    }
+
+    .menswear_img_II {
+        width: 50%;
+    }
+
+    .menswear_text {
+        width: 45%;
+    }
+
+    .menswear_text button {
+        margin-left: 0.5em !important;
+    }
+
+    /* 
+=============================
+    perfect pair
+=============================
+*/
+
+    .perfect_pair__inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .perfect_pair_img_I {
+        display: none;
+    }
+
+    .perfect_pair_img_II {
+        width: 50%;
+    }
+
+    .perfect_pair_text {
+        width: 45%;
+    }
+
+    .perfect_pair_text button {
+        margin-left: 0.5em !important;
+    }
+
+    /* 
+=============================
+    category ends
+=============================
+*/
+
+    /* 
+================================
+    footer starts 
+================================
+*/
+
+    /* 
+================================
+    footer mail
+================================
+*/
+    .footer_container {
+        height: 238vh;
+    }
+
+    .footer_inner__mail {
+        height: 6%;
+    }
+
+    .footer_inner__mail__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        line-height: 2em;
+        width: 100%;
+    }
+
+    .footer_inner__mail__inner p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .footer_inner__mail__inner input {
+        width: 90%;
+    }
+
+    .footer_inner__mail__inner input::placeholder {
+        text-align: center;
+    }
+
+    label {
+        display: none;
+    }
+
+    /* 
+================================
+    footer social
+================================
+*/
+
+    .footer_inner__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_inner__social__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90%;
+        font-size: 1.5rem;
+    }
+
+    .footer_inner__social__inner p {
+        text-align: center;
+    }
+
+    .social_icons {
+        width: 50%;
+        height: 20%;
+    }
+
+    /* 
+================================
+    footer list
+================================
+*/
+    .footer_list {
+        height: 65%;
+    }
+
+    .footer_list_inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 95%;
+    }
+
+    .customer,
+    .aboutus,
+    .categories,
+    .legal,
+    .help {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* 
+================================
+    agreement
+================================
+*/
+    .agreement {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 21vh;
+        font-size: 1.4rem;
+    }
+
+    /* 
+================================
+    footer ends 
+================================
+*/
+
+}
+
+/* ========for desktops=========== */
+@media (1025px <=width <=1200px) {
+
+    /*
+==============================
+    header starts
+==============================
+ */
+    .header_container {
+        text-align: center;
+        height: 6vh;
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .header_container h4 {
+        padding: 0.8rem;
+    }
+
+    /*
+==============================
+header ends
+==============================
+*/
+
+    /* 
+==============================
+    navbar starts
+==============================
+*/
+    .shipping {
+        width: 20%;
+    }
+
+    .nav_logo {
+        width: auto;
+    }
+
+    .nav_logo img {
+        transform: translateX(10%);
+    }
+
+    /* 
+==============================
+    navbar starts
+==============================
+*/
+
+    /* 
+==============================
+    navlist starts
+==============================
+*/
+
+    .nav_links_inner {
+        width: 80%;
+    }
+
+    /* 
+==============================
+    navlist starts
+==============================
+*/
+
+    /* 
+==============================
+    concious luxury starts
+==============================
+*/
+
+    .concious_inner__title__inner {
+        height: 70%;
+    }
+
+    /* 
+==============================
+    concious luxury ends
+==============================
+*/
+
+    /* 
+==============================
+    category starts
+==============================
+*/
+
+    button {
+        width: 50%;
+        margin-left: 0.5em !important;
+    }
+
+    .wide_button {
+        width: 110% !important;
+    }
+
+    /* 
+==============================
+    category content
+==============================
+*/
+    .category_inner__content__inner {
+        justify-content: space-evenly;
+    }
+
+    .sarees {
+        display: none;
+    }
+
+    .dresses,
+    .croods,
+    .kurta_sets {
+        width: 30%;
+    }
+
+    /* 
+==============================
+    category ends
+==============================
+*/
+
+    /* 
+==============================
+    footer starts
+==============================
+*/
+
+    /*
+==============================
+    footer mail
+==============================
+*/
+
+    .footer_inner__mail__inner {
+        width: 80%;
+    }
+
+    /* 
+==============================
+    footer ends
+==============================
+*/
+
+}
+
+/* ========for TV and extra large screens=========== */
+@media (1201px <=width <=4000px) {
+
+    /*
+==============================
+    header starts
+==============================
+ */
+    .header_container {
+        text-align: center;
+        height: 6vh;
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .header_container h4 {
+        padding: 0.8rem;
+    }
+
+    /*
+==============================
+header ends
+==============================
+*/
+    /*
+==============================
+    concious luxury starts
+==============================
+*/
+
+    .concious_inner_title_inner {
+        height: 70%;
+    }
+
+    .concious_inner_title_inner h1 {
+        font-size: 2rem;
+
+    }
+
+    /*
+==============================
+concious luxury ends
+==============================
+*/
+
+    /*
+==============================
+footer starts
+==============================
+*/
+
+    .footer_inner_mail_inner {
+        width: 60%;
+    }
+
+    /*
+==============================
+footer ends
+==============================
+*/
+}

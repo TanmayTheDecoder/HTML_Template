@@ -1,0 +1,57 @@
+:root {
+    --primary : rgb(0, 47, 0);
+    --secondary : rgb(0,67,0);
+    --ternary : rgb(0,87,0);
+    --smokey : whitesmoke;
+}
+
+.btn {
+    height: 5.5vh;
+    width: 45%;
+    background: none;
+    border: 1px solid var(--primary);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    outline: none;
+    line-height: 1;
+    text-transform: capitalize;
+    cursor : pointer;
+    transition: .8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn_hover {
+    color: var(--primary);
+}
+
+.btn_hover:hover {
+    color: var(--smokey);
+    z-index: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: var(--primary);
+    transition: .8s;
+    z-index: -1;
+}
+
+.btn_hover::before { 
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn_hover {
+    color : var(--primary);
+}
+
+.btn_hover:hover::before {
+    height: 180%;
+}
+

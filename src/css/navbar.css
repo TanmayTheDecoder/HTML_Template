@@ -1,0 +1,91 @@
+:root {
+    --primary : rgb(0, 47, 0);
+    --secondary : rgb(0,67,0);
+    --ternery : rgb(0,87,0);
+}
+
+.flex_adjust_end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex_adjust_space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_adjust_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_adjust_even {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h-15 {
+    height: 15vh;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-12 {
+    width: 12%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+ 
+.w-100 {
+    width: 100%;
+}
+
+.shipping {
+    font-size: 1rem;
+    color: var(--primary);
+}
+
+.shipping p span img{
+    height: 1.1vh;
+    transform: translateY(-15%);
+}
+
+.nav_logo {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.nav_logo img {
+    width: 60%;
+    transform: translateX(25%);
+}
+
+.nav_icons {
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.nav_icons i, .nav_icons img {
+    cursor:  pointer;
+}
+
+.menu_button {
+    display: none;
+}
+
+.tablet_nav_icons {
+    display: none;
+}

@@ -1,0 +1,324 @@
+:root {
+    --primary : rgb(0, 47, 0);
+    --secondary : rgb(0,67,0);
+    --ternery : rgb(0,87,0);
+    --smokey : whitesmoke;
+    --wheat : rgb(255, 255, 242);
+    --sharp_fonts : 'Crimson Pro', serif;
+}
+
+.hide {
+    z-index: -1;
+}
+
+.hide_content {
+    visibility: hidden;
+}
+
+.h35 {
+    height: 35%;
+}
+
+.h50 {
+    height: 50%;
+} 
+
+.h80 {
+    height: 80%;
+}
+
+.h90 {
+    height: 90%;
+}
+
+.h95 {
+    height: 95%;
+}
+
+.h100 {
+    height: 100vh;
+}
+
+.w24 {
+    width: 24%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.flex_adjust_column_space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex_adjust_column_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.category_inner_title {
+    background-color: var(--wheat);
+}
+
+.category_inner_title__inner h4{
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+}
+
+.category_inner_title__inner h1{
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+.category_inner__content {
+    background-color: var(--wheat);
+}
+
+.dresses img,.croods img,.kurta_sets img,.sarees img{
+    height: 100%;
+    width: 100%;
+}
+
+.dresses h3,.croods h3,.kurta_sets h3,.sarees h3{
+    font-family: var(--sharp_fonts);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.7em 0em;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+}
+
+/* =========================================
+    Grassroot
+ ===========================================*/
+
+.grassroot_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.grassroot_inner__content {
+    background-color: var(--wheat);
+}
+
+.grassroot_img_I img,.grassroot_img_II img{
+    height: 100%;
+    width: 100%;
+}
+
+.grassroot_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.grassroot_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.3em;
+}
+
+/* =========================================
+    Bridal edit
+===========================================*/
+.bridal_edit_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.bridal_edit_inner__content {
+    background-color: var(--wheat);
+}
+
+.bridal_edit_img_I img,.bridal_edit_img_II img{
+    height: 100%;
+    width: 100%;
+}
+
+.bridal_edit_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.bridal_edit_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.3em;
+}
+
+/* =========================================
+    Vegan accessories
+===========================================*/
+
+.vegan_accessories_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.vegan_accessories_inner__content {
+    background-color: var(--wheat);
+}
+
+.vegan_accessories_img img{
+    height: 100%;
+    width: 95%;
+}
+
+.vegan_accessories_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.vegan_accessories_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.3em;
+}
+
+.wide_button {
+    width: 80%;
+}
+
+/* =========================================
+    indian crafts
+===========================================*/
+
+.indian_crafts_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.indian_crafts_inner__content {
+    background-color: var(--wheat);
+}
+
+.indian_crafts_img img{
+    height: 100%;
+    width: 95%;
+}
+
+.indian_crafts_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.indian_crafts_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.5em;
+}
+
+/* =========================================
+    men's wear
+===========================================*/
+
+.menswear_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.menswear_inner__content {
+    background-color: var(--wheat);
+}
+
+.menswear_img_I img,.menswear_img_II img{
+    height: 100%;
+    width: 100%;
+}
+
+.menswear_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.menswear_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.5em;
+}
+
+/* =========================================
+    perfect pair
+===========================================*/
+
+.perfect_pair_inner__title {
+    background-color: var(--wheat);
+}
+ 
+.perfect_pair_inner__content {
+    background-color: var(--wheat);
+}
+
+.perfect_pair_img_I img,.perfect_pair_img_II img{
+    height: 100%;
+    width: 100%;
+}
+
+.perfect_pair_text h1 {
+    font-family: var(--sharp_fonts);
+    font-weight: 100;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.3em;
+}
+
+.perfect_pair_text p {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    line-height: 1.5em;
+}
+

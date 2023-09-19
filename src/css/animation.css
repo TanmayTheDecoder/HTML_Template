@@ -1,0 +1,10 @@
+.scale_animate {
+    overflow: hidden;
+}
+
+.scale_animate:hover.scale_animate img {
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+
