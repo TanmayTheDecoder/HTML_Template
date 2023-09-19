@@ -5,7 +5,7 @@
   "name": "anita-dongre",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://TanmayTheDecoder.github.io/HTML_Template/",
+  "homepage": "https://TanmayTheDecoder.github.io/HTML_Template/public/index.html",
   "private" : false,
   "devDependencies": {},
   "scripts": {
